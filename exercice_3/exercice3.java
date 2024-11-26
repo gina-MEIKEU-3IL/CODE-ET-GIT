@@ -14,7 +14,7 @@ public class StockManager {
             } else {
                 System.out.println("Stock insuffisant pour le produit : " + produit);
             }
-        // Si l'action est inconnu
+        // Si l'action n'est pas connu
         } else {
             System.out.println("Opération inconnue.");
         }
