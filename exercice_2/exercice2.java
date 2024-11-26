@@ -14,7 +14,7 @@ public class GestionnaireNotes {
             somme += note;
         }
 
-        // Affichage de la moyenne
+        
         double moyenne = (double) somme / notes.length;
         System.out.println("Moyenne : " + moyenne);
     }
